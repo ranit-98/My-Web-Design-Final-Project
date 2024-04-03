@@ -1,0 +1,138 @@
+.navbar-brand{
+    margin-right: 650px;
+}
+.navBar{
+    background-color: rgb(56, 32, 236);
+    height: 70px;
+    overflow: hidden;
+    position: fixed ; 
+    top: 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 1;
+    
+}
+body{
+    padding-top: 70px;
+    
+}
+
+a:hover{
+    background-color: rgb(74, 74, 231);
+    border-radius: 25px;
+}
+.dp{
+    /* background-color: rgb(136, 8, 234); */
+    background: linear-gradient(125deg,rgb(152, 1, 252) 54%,rgb(103, 6, 250) 46%);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.btn{
+    color: antiquewhite;
+    font-size: 22px;
+    border: 3px solid white;
+    border-radius: 40px;
+}
+.btn:hover{
+    background-color: antiquewhite;
+}
+.text-muted {
+    color: #6c757d!important;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+body{
+    overflow-x: hidden;
+}
+#feature{
+    background-color: rgb(29, 29, 240);
+    color: antiquewhite;
+}
+
+
+.card{
+    border: 3px solid wheat;
+    width: 320px;
+    border-radius: 11px;
+    padding: 20px;
+   
+}
+
+.cardContent{
+    padding: 10px;
+    font-size: 14px;
+}
+.cardDescription{
+    color: black;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 25px;
+}
+.button-pf:hover{
+    background-color: rgb(22, 22, 22);
+    color: aliceblue;
+}
+
+.btn_subscribe{
+    border-radius: 18px;
+    padding: 3px 25px;
+    border: 3px solid white;
+    background: transparent;
+    color: aliceblue;
+}
+.btn_subscribe:hover{
+    background-color: antiquewhite; 
+    color: black;
+    
+
+}
+.button_DN{
+    color: blue;background: transparent;border-radius: 25px; padding: 8px 25px;
+}
+.button_DN:hover{
+     background-color: blue;
+    color: whitesmoke;
+    border-radius: 50px; 
+
+   }
+input{
+    margin-top: 18px;
+    padding-top: 8px;
+    width: 600px;
+    padding: 10px;
+    font-size: 24px;
+}
+#msg{
+    height: 250px;
+}
+input:hover{
+    border: 4px solid rgb(62, 62, 232);
+}
+.button-msg{
+    background-color: rgb(24, 24, 231);
+    color: white;
+    margin-left: 350px;
+    margin-top:50px ;
+    padding: 15px 25px;
+    border-radius: 35px;
+    font-size: 22px;
+}
+.button-msg:hover{
+    box-shadow: 4px 4px 4px 4px rgb(99, 99, 229);
+}
+.card{
+    transition: all 1sec ease-in-out;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.pfImg{
+    transition: all 2sec ease-in-out;
+}
+.pfImg:hover{
+    transform: scale(1.2);
+}
